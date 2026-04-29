@@ -368,7 +368,7 @@ CONTEXTO: At a restaurant: Please, bring him the menu.
 [COMPLETE]
 1. I love my mother. I love ___ (her).
 2. John is my friend. I like ___ (him).
-3. We are lost. Can you help ___ (us)?
+3. We are lost. Can you help ___ (us?)
 [TRANSLATE]
 1. Ella me llama (She calls me)
 2. Yo los veo a ellos (I see them)
@@ -1087,3 +1087,42 @@ CONTEXTO: School: I have Maria's notebook.
 1. El perro de Ana (Ana's dog)
 2. La computadora de mi hermano (My brother's computer)
 3. El carro de Luis (Luis's car)
+
+[LISTENING: Daily Conversations]
+I like to drink coffee in the morning (I like to drink coffee in the morning)
+The weather is beautiful today (The weather is beautiful today)
+
+[LISTENING: Daily Routine]
+I take a shower every morning (I take a shower every morning)
+My brother plays video games after school (My brother plays video games after school)
+We have dinner at eight PM (We have dinner at eight PM)
+She brushes her teeth before bed (She brushes her teeth before bed)
+They go to the gym on Mondays (They go to the gym on Mondays)
+
+[LISTENING: In the City]
+The supermarket is next to the bank (The supermarket is next to the bank)
+I need to buy a ticket for the bus (I need to buy a ticket for the bus)
+Where is the nearest pharmacy? (Where is the nearest pharmacy?)
+This shirt is too expensive for me (This shirt is too expensive for me)
+Turn left at the traffic light (Turn left at the traffic light)
+
+[LISTENING: Office Life]
+I am sending an important email now (I am sending an important email now)
+The meeting starts in ten minutes (The meeting starts in ten minutes)
+Can you help me with this report? (Can you help me with this report?)
+My boss is in a conference call (My boss is in a conference call)
+I finish work at five o'clock (I finish work at five o'clock)
+
+[LISTENING: Quick Questions]
+Do you like chocolate ice cream? (Do you like chocolate ice cream?)
+What is your favorite color? (What is your favorite color?)
+Is it raining outside right now? (Is it raining outside right now?)
+Can you speak more slowly, please? (Can you speak more slowly, please?)
+How do you spell your last name? (How do you spell your last name?)
+
+[LISTENING: Past Experiences]
+I watched a movie last Saturday (I watched a movie last Saturday)
+They traveled to France two years ago (They traveled to France two years ago)
+She lost her keys in the park (She lost her keys in the park)
+We studied English for three hours (We studied English for three hours)
+He bought a new car yesterday (He bought a new car yesterday)
