@@ -1,4 +1,25 @@
 import streamlit as st
+st.set_page_config(page_title="ESL English Classes", layout="centered")
+
+# Esto elimina la foto, el menú y el pie de página de Streamlit
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            .stAppDeployButton {display:none;}
+            [data-testid="stToolbar"] {visibility: hidden !important;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+st.markdown("""
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    .stAppDeployButton {display:none;}
+    </style>
+    """, unsafe_allow_status_code=True)
 import os
 from gtts import gTTS
 from io import BytesIO
