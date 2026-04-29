@@ -115,7 +115,7 @@ if st.session_state["authenticated"]:
     if lec_sel:
         display_logo(lec_sel)
         txt_path = os.path.join(CLASES_DIR, lec_sel, "material.txt")
-        st.write(f"Buscando archivo en: {txt_path}") # Línea de prueba
+        
         content = {"theory": [], "speaking": [], "reading": []}
         
         if os.path.exists(txt_path):
