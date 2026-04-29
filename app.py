@@ -95,11 +95,19 @@ if not st.session_state["authenticated"]:
 if st.session_state["authenticated"]:
     with st.sidebar:
         st.title("Navigation")
+        # Listar carpetas dentro de Clases para crear el menú
         if os.path.exists(CLASES_DIR):
             lecciones = sorted([d for d in os.listdir(CLASES_DIR) if os.path.isdir(os.path.join(CLASES_DIR, d))])
         else:
             lecciones = []
-        lec_sel = st.selectbox("Select Lesson:", lecciones) if lecciones else None
+            
+        if lecciones:
+            # Aquí se crea el desplegable
+            lec_sel = st.selectbox("Select Level:", lecciones)
+        else:
+            st.error("No se encontraron carpetas. Revisa la carpeta 'Clases'")
+            lec_sel = None
+
         if st.button("Logout"):
             st.session_state["authenticated"] = False
             st.rerun()
@@ -107,6 +115,7 @@ if st.session_state["authenticated"]:
     if lec_sel:
         display_logo(lec_sel)
         txt_path = os.path.join(CLASES_DIR, lec_sel, "material.txt")
+        st.write(f"Buscando archivo en: {txt_path}") # Línea de prueba
         content = {"theory": [], "speaking": [], "reading": []}
         
         if os.path.exists(txt_path):
