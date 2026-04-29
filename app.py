@@ -126,9 +126,8 @@ if st.session_state["authenticated"]:
                         content["theory"][-1]["exercises"].append({"type": "item", "val": l})
                     elif curr_mode == "speaking":
                         content["speaking"][-1]["items"].append(l)
-                    elif curr_section == "reading":
+                    elif curr_mode == "reading": # <--- CAMBIAR section POR mode
                         content["reading"][-1]["text"].append(l)
-
         # --- TABS ---
         tabs = st.tabs(["📚 Theory & Practice", "🎤 Speaking Center", "✍️ Writing"])
 
