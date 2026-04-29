@@ -972,23 +972,25 @@ CONTEXTO: Office: What are you doing?
 2. Ellos están corriendo (They are running)
 3. ¿Estás escuchando? (Are you listening?)
 
-[THEORY: Modal Verbs: CAN and MUST]
-CONCEPTO: Los verbos modales ayudan a expresar habilidad o permiso (CAN) y obligación o necesidad fuerte (MUST).
-SIGNIFICADO: Expresar capacidades y deberes.
-POSITIVE: Subject + CAN/MUST + Verb (forma base).
-TIP: Después de CAN o MUST, el verbo que sigue NUNCA lleva "to" ni "s". Di "I can swim", nunca "I can to swim" o "She can swims". ¡Son verbos muy fáciles de usar!
-CONTEXTO: Ability: I can speak two languages.
-CONTEXTO: Rule: You must wear a seatbelt.
-CONTEXTO: Request: Can you help me, please?
+[THEORY: Modal Verbs - Must & Can]
+CONCEPTO: 'Can' expresa habilidad o permiso, mientras que 'Must' expresa obligación o necesidad fuerte.
+SIGNIFICADO: Can (Poder), Must (Deber).
+POSITIVE: Subject + modal + verb + complement.
+NEGATIVE: Subject + modal + not + verb + complement.
+QUESTION: Modal + subject + verb + complement?
 
 [EXERCISES]
+Birds ___ fly very high. (can)
+You ___ wear a seatbelt in the car. (must)
+
 [COMPLETE]
-1. Birds ___ (can) fly.
-2. You ___ (must) stop at a red light.
+I ___ speak English fluently. (can)
+We ___ be quiet in the library. (must)
+
 [TRANSLATE]
-1. Puedo bailar (I can dance)
-2. Debes estudiar (You must study)
-3. No puedo cantar (I cannot / can't sing)
+Puedo bailar (I can dance)
+Debes estudiar (You must study)
+No puedo cantar (I cannot sing) (I can't sing)
 
 [THEORY: Wh- Questions]
 CONCEPTO: Son palabras que usamos para pedir información específica en lugar de un simple "sí" o "no". Se llaman así porque casi todas empiezan con "Wh-". Son las herramientas básicas para conocer gente y entender el mundo.
