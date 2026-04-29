@@ -4,45 +4,42 @@ from gtts import gTTS
 from io import BytesIO
 from streamlit_mic_recorder import mic_recorder
 
-# --- 1. CONFIGURACIÓN DE PÁGINA ---
+# --- 1. CONFIGURACIÓN DE PÁGINA (Debe ser lo primero) ---
 st.set_page_config(page_title="English Practice Portal", layout="centered", page_icon="🇬🇧")
 
-# --- 2. CSS ---
+# --- 2. CSS PARA OCULTAR INTERFAZ (Solución Definitiva para Foto y User) ---
 st.markdown("""
     <style>
-    #MainMenu, footer, header {visibility: hidden;} 
-    .stDeployButton {display:none;}
-    .stImage > img { display: block; margin-left: auto; margin-right: auto; }
+    /* Oculta el encabezado superior */
+    header {visibility: hidden !important; height: 0px !important;}
     
-    .reading-box {
-        background-color: #f8f9fa; padding: 25px; border-radius: 15px;
-        border-left: 8px solid #1E88E5; font-size: 1.1rem; line-height: 1.6;
-        color: #1a1a1a; margin-bottom: 20px;
-    }
+    /* ELIMINA LA BARRA INFERIOR DERECHA (Foto y "Created by") */
+    /* Este bloque apunta a los contenedores específicos de la nube */
+    [data-testid="stStatusWidget"] {display: none !important;}
+    .stViewerBadge {display: none !important;}
+    #streamlit_viewer_badge {display: none !important;}
     
-    .exercise-question {
-        font-size: 1.1rem; font-weight: 500; color: #2c3e50;
-        margin-bottom: -10px; margin-top: 15px;
-    }
+    /* Oculta el botón rojo de "Hosted with Streamlit" */
+    footer {display: none !important;}
+    .stAppDeployButton {display: none !important;}
+    
+    /* Oculta cualquier barra de herramientas flotante */
+    [data-testid="stToolbar"] {visibility: hidden !important; display: none !important;}
 
-    .stButton button { width: 100%; border-radius: 10px; font-weight: bold; }
+    /* Ajuste para que el contenido no se pegue arriba */
+    .block-container {padding-top: 1rem !important;}
+
+    /* Tu firma personalizada al centro */
     .custom-footer {
         position: fixed; left: 0; bottom: 0; width: 100%;
         background-color: white; color: #888888; text-align: center;
         padding: 10px; font-family: monospace; font-size: 0.8rem;
     }
-    .pos { color: #2e7d32; font-weight: bold; }
-    .neg { color: #c62828; font-weight: bold; }
-    .int { color: #1565c0; font-weight: bold; }
-    .teacher-tip { 
-        background-color: #fff3cd; padding: 15px; border-radius: 10px; 
-        border-left: 5px solid #ffc107; margin: 10px 0;
-    }
     </style>
     <div class="custom-footer">Curated with heart by Karen ❤️</div>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES ---
+# --- 3. FUNCIONES DE APOYO ---
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 CLASES_DIR = os.path.join(BASE_PATH, "Clases")
 USERS = {"alumna": "password2026", "profe": "admin123"}
@@ -86,7 +83,10 @@ if not st.session_state["authenticated"]:
 if st.session_state["authenticated"]:
     with st.sidebar:
         st.title("Navigation")
-        lecciones = sorted([d for d in os.listdir(CLASES_DIR) if os.path.isdir(os.path.join(CLASES_DIR, d))])
+        if os.path.exists(CLASES_DIR):
+            lecciones = sorted([d for d in os.listdir(CLASES_DIR) if os.path.isdir(os.path.join(CLASES_DIR, d))])
+        else:
+            lecciones = []
         lec_sel = st.selectbox("Select Lesson:", lecciones) if lecciones else None
         if st.button("Logout"):
             st.session_state["authenticated"] = False
@@ -126,10 +126,10 @@ if st.session_state["authenticated"]:
                         content["theory"][-1]["exercises"].append({"type": "item", "val": l})
                     elif curr_mode == "speaking":
                         content["speaking"][-1]["items"].append(l)
-                    elif curr_mode == "reading":
+                    elif curr_section == "reading":
                         content["reading"][-1]["text"].append(l)
 
-        # --- 6. TABS ---
+        # --- TABS ---
         tabs = st.tabs(["📚 Theory & Practice", "🎤 Speaking Center", "✍️ Writing"])
 
         with tabs[0]:
@@ -179,7 +179,6 @@ if st.session_state["authenticated"]:
                                     if user_ans.lower() == answer.lower(): st.success("Correct! ✨")
                                     else: st.error(f"Try again!")
                             else: st.write(f"• {val}")
-            else: st.info("Select a lesson.")
 
         with tabs[1]:
             if content["speaking"]:
