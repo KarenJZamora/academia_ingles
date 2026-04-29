@@ -354,12 +354,14 @@ Questions:
 2. When do we play sports?
 
 [THEORY: Subject and Object Pronouns]
-CONCEPTO: Los pronombres son las palabras que sustituyen a los nombres para no repetir. Los "Subject Pronouns" hacen la acción (Yo, Tú) y los "Object Pronouns" la reciben (Me, Te, Lo). Son la base para construir cualquier oración en inglés.
-SIGNIFICADO: Identificar quién hace la acción y quién se ve afectado por ella.
+CONCEPTO: Los pronombres sustituyen nombres para evitar la repetición. Los **Subject Pronouns** (I, You, He, She, It, We, They) realizan la acción y van antes del verbo. Los **Object Pronouns** (Me, You, Him, Her, It, Us, Them) reciben la acción y van después del verbo.
+SIGNIFICADO: Identificar quién hace la acción (Sujeto) y quién se ve afectado por ella (Objeto).
 POSITIVE: Subject + Verb + Object Pronoun (e.g., I love you)
 NEGATIVE: Subject + do/does not + Verb + Object Pronoun (e.g., He doesn't help me)
 QUESTION: Do/Does + Subject + Verb + Object Pronoun? (e.g., Do you know him?)
 TIP: En español solemos omitir el sujeto (decimos "Es alto"), pero en inglés SIEMPRE debes poner el pronombre: "IT is tall" o "HE is tall". ¡Nunca dejes al verbo solo!
+TIP: Los Subject Pronouns son: I, You, He, She, It, We, They.
+TIP: Los Object Pronouns son: Me, You, Him, Her, It, Us, Them.
 CONTEXTO: At the office: I need to call her now.
 CONTEXTO: With friends: Can you help us with the bags?
 CONTEXTO: At a restaurant: Please, bring him the menu.
@@ -375,12 +377,14 @@ CONTEXTO: At a restaurant: Please, bring him the menu.
 3. ¿Nos escuchas? (Do you listen to us?)
 
 [THEORY: Present Simple - Verb To Be]
-CONCEPTO: El verbo 'To Be' es el más importante del inglés. Significa 'Ser' o 'Estar'. Se usa para nombres, profesiones, estados de ánimo y lugares. A diferencia de otros verbos, este tiene sus propias reglas y no necesita auxiliares para negar o preguntar.
-SIGNIFICADO: Definir quiénes somos o cómo estamos.
-POSITIVE: Subject + am/is/are + complement.
-NEGATIVE: Subject + am/is/are + NOT + complement.
-QUESTION: Am/Is/Are + Subject + complement?
-TIP: La contracción "I'm" es mucho más natural que decir "I am". Además, recuerda que para la edad usamos To Be: "I AM 20 years old", ¡no uses el verbo tener (have)!
+CONCEPTO: El verbo 'To Be' es el pilar del inglés. Significa 'Ser' o 'Estar' y cambia según el sujeto: **I am** (Yo soy/estoy), **He/She/It is** (Él/Ella/Eso es/está) y **You/We/They are** (Tú/Uds/Nosotros/Ellos son/están). Se usa para nombres, profesiones, sentimientos y lugares.
+SIGNIFICADO: Definir identidad, ubicación, estados físicos o emocionales.
+POSITIVE: Subject + am/is/are + complement (e.g., She is a doctor)
+NEGATIVE: Subject + am/is/are + NOT + complement (e.g., They are not here)
+QUESTION: Am/Is/Are + Subject + complement? (e.g., Are you ready?)
+TIP: ¡Cuidado con la edad! En inglés no "tenemos" años, "somos" viejos: "I AM 25 years old" (Correcto) / "I have 25" (Error común).
+TIP: Memoriza los grupos: [I + am] | [He, She, It + is] | [You, We, They + are].
+TIP: Usa contracciones para sonar natural: I'm, You're, He's, She's, It's, We're, They're.
 CONTEXTO: Meeting a client: I am the manager of this area.
 CONTEXTO: With friends: We are very happy today!
 CONTEXTO: At a restaurant: Is the soup hot?
@@ -396,11 +400,16 @@ CONTEXTO: At a restaurant: Is the soup hot?
 3. ¿Es ella tu hermana? (Is she your sister?)
 
 [THEORY: The Schwa Sound /ə/]
-CONCEPTO: La 'Schwa' es el sonido más común del inglés. Es una vocal neutra, corta y relajada que ocurre en las sílabas que no tienen acento. Dominar este sonido es el "secreto" para dejar de sonar como robot y empezar a sonar fluido.
-PRONUNCIACION: Suena como un pequeño suspiro corto: /ə/.
-SIGNIFICADO: Relajar las vocales no acentuadas.
-POSITIVE: Pronunciación relajada en sílabas débiles.
-TIP: No intentes pronunciar todas las letras de una palabra con la misma fuerza. En "Teacher", la 'e' del final no suena como una 'e' fuerte española, suena como una Schwa relajada /tíː-chə/.
+CONCEPTO: El sonido **Schwa /ə/** es el más importante para la fluidez. Es una vocal "perezosa": neutra, corta y muy relajada. Aparece únicamente en las sílabas que **no tienen fuerza (sin acento)**. En lugar de pronunciar la vocal clara, simplemente relajas la boca y dejas salir un hilo de voz.
+SIGNIFICADO: Reducir el esfuerzo al hablar para ganar velocidad y sonar natural.
+PRONUNCIACION: Suena como un pequeño suspiro o un "uh" muy suave y corto: /ə/.
+POSITIVE: La boca debe estar casi cerrada y los músculos de la cara relajados.
+TIP: ¡El secreto de la fluidez! En inglés, no todas las sílabas son iguales. La sílaba fuerte suena clara, pero la sílaba débil se convierte en Schwa. Ejemplo: En "BANANA", la primera y la última 'a' son Schwa: /bə-NÁ-nə/.
+TIP: Cualquier vocal puede ser una Schwa. Mira estos ejemplos:
+- 'a' en About (/ə-báut/)
+- 'e' en Teacher (/tíː-chə/)
+- 'o' en Computer (/kəm-pjúː-tə/)
+TIP: No trates de decir la vocal como se escribe. Si la sílaba no es la fuerte, relájala al máximo hasta que casi desaparezca.
 CONTEXTO: Giving info: I have a /ə/ computer.
 CONTEXTO: At home: My moth/ə/r is here.
 CONTEXTO: Talking: It's f/ə/r you.
@@ -416,10 +425,15 @@ CONTEXTO: Talking: It's f/ə/r you.
 3. Hoy (Today)
 
 [THEORY: Alphabet, Spelling, and -s Pronunciation]
-CONCEPTO: El abecedario es la base para deletrear nombres y correos. En inglés, muchas letras suenan distinto a como se escriben. Además, la letra "-s" al final de las palabras (plurales) tiene tres sonidos diferentes según la vibración de la garganta.
-SIGNIFICADO: Aprender a deletrear y a pronunciar plurales correctamente.
-STRUCTURE: No aplica fórmula fija, pero se basa en: Letter + Letter + Letter.
-TIP: La letra 'E' suena como /i/ y la letra 'I' suena como /ai/. ¡Es el error #1 de los hispanohablantes! Intercámbialas en tu mente para no fallar.
+CONCEPTO: El abecedario es vital para el "Spelling" (deletreo). En inglés, las vocales cambian totalmente su sonido. Además, la **"-s" final** de los plurales o verbos no siempre suena igual: puede sonar como un silbido /s/, como un zumbido de abeja /z/ o como una sílaba extra /iz/.
+SIGNIFICADO: Deletrear datos personales y pronunciar correctamente el final de las palabras.
+PRONUNCIACION: A (ei), E (i), I (ai), O (ou), U (iu). / G (yi), J (yei).
+STRUCTURE: Spelling: "It's spelled A-B-C..." | Plurals: Word + S/ES.
+TIP: ¡Cuidado con las vocales! La 'E' suena como nuestra 'i', y la 'I' suena como 'ai'. Piénsalo así: "E" de "Email" e "I" de "iPhone".
+TIP: La "-s" final depende de la vibración:
+- Si la palabra termina en sonido S, SH, CH, X o Z, suena como /iz/ (Ej: Kiss-es).
+- Si la garganta vibra al final de la palabra, la "-s" suena como /z/ (Ej: Dogs).
+- Si no hay vibración, suena como /s/ (Ej: Cats).
 CONTEXTO: At the airport: Can you spell your last name, please?
 CONTEXTO: At a shop: I have two phones /fóuns/ (sonido Z).
 CONTEXTO: Formal meeting: My boss's /bós-iz/ office (sonido IZ).
@@ -434,12 +448,14 @@ CONTEXTO: Formal meeting: My boss's /bós-iz/ office (sonido IZ).
 3. ¿Cómo se deletrea eso? (How do you spell that?)
 
 [THEORY: Colors]
-CONCEPTO: Los colores son adjetivos. En inglés, los adjetivos SIEMPRE van antes del sustantivo y nunca cambian a plural. No decimos "reds cars", decimos "red cars".
-SIGNIFICADO: Describir el mundo visualmente.
-POSITIVE: Color + Noun (e.g., Red apple).
-NEGATIVE: It is not + Color (e.g., It is not blue).
+CONCEPTO: Los colores funcionan como adjetivos. En inglés, los adjetivos tienen dos reglas inquebrantables: 1. Van SIEMPRE antes del sustantivo (Red car). 2. Nunca cambian a plural, aunque el objeto sí lo sea (Decimos Red cars, NO Reds cars).
+SIGNIFICADO: Describir objetos, personas y lugares mediante su color.
+PRONUNCIACION: Red (red), Blue (blu), Yellow (iélou), Green (grin), Orange (órindsh), Purple (pérpol).
+POSITIVE: Color + Noun (e.g., A red apple / Three green apples)
+NEGATIVE: It is not + Color (e.g., It is not blue)
 QUESTION: Is it + Color? (e.g., Is it green?)
-TIP: El color 'Orange' se pronuncia /ó-rindsh/, no digas "orange" como se lee en español. Y recuerda: ¡los colores no llevan 's' al final nunca!
+TIP: Cuidado con el plural: En español decimos Camisas rojas, pero en inglés la S solo va en el objeto: Red shirtS. El color se queda igual siempre.
+TIP: Para decir que un color es claro u oscuro, usamos: LIGHT (Claro) y DARK (Oscuro). Ejemplo: Light blue (Azul claro) o Dark green (Verde oscuro).
 CONTEXTO: Shopping: I want the blue shirt.
 CONTEXTO: With friends: My favorite color is yellow.
 CONTEXTO: At a restaurant: The red wine is delicious.
@@ -454,10 +470,14 @@ CONTEXTO: At a restaurant: The red wine is delicious.
 3. ¿Es negro el gato? (Is the cat black?)
 
 [THEORY: Greetings and Farewells]
-CONCEPTO: Existen formas formales e informales de saludar. Usar la correcta demuestra respeto y nivel cultural. Los saludos cambian según la hora del día.
-SIGNIFICADO: Abrir y cerrar conversaciones educadamente.
-POSITIVE: Greeting + Name (e.g., Hello, Karen).
-TIP: "Good night" NO es un saludo, es una despedida para cuando te vas a dormir. Para saludar de noche siempre usa "Good evening".
+CONCEPTO: Saludar y despedirse es la base de la cortesía. En inglés, los saludos se dividen en Formales (para el trabajo o personas desconocidas) e Informales (amigos y familia). También dependen del momento del día: Morning (mañana), Afternoon (tarde) y Evening (noche).
+SIGNIFICADO: Iniciar y finalizar interacciones de forma adecuada al contexto.
+PRONUNCIACION: Hello (jelóu), Hi (jai), Good Morning (gud mórnin), Good Evening (gud ívnin), Goodbye (gud-bái).
+POSITIVE: Greeting + Name (e.g., Hello, Karen / Good afternoon, Mr. Smith)
+TIP: No te confundas al anochecer: GOOD NIGHT no es un saludo; se usa solo para decir adiós o me voy a dormir. Si llegas a un lugar de noche, saluda siempre con GOOD EVENING.
+TIP: Diferencia clave de registro:
+- FORMAL: How are you? (¿Cómo está usted?)
+- INFORMAL: What's up? (¿Qué tal? / ¿Qué pasa?)
 CONTEXTO: Formal office: Good morning, Mr. Smith.
 CONTEXTO: With friends: Hey! What's up?
 CONTEXTO: Leaving a place: Take care, see you later!
@@ -472,11 +492,13 @@ CONTEXTO: Leaving a place: Take care, see you later!
 3. Hasta pronto (See you soon)
 
 [THEORY: Cardinal Numbers, Age, and Phone Data]
-CONCEPTO: Los números se usan para todo: precios, teléfonos y edad. Recuerda que en inglés la edad no se "tiene" (have), sino que se "es" (be).
-SIGNIFICADO: Dar información numérica personal.
-POSITIVE: I am + [Number] + years old.
-QUESTION: What is your phone number?
-TIP: Para decir el número "0" en teléfonos, es más común decir "Oh" (como la letra O) que decir "Zero".
+CONCEPTO: Los números son la base para dar información personal. Recuerda la diferencia entre los terminados en -teen (del 13 al 19) que tienen el acento al final, y los terminados en -ty (decenas) que tienen el acento al principio. Además, para la edad, siempre usamos el verbo To Be (am/is/are).
+SIGNIFICADO: Comunicar cantidades exactas, edades, precios y números telefónicos.
+POSITIVE: I am + [Number] + years old (e.g., I am 20 years old).
+QUESTION: How old are you? / What is your phone number?
+TIP: Numbers 1-20: 1-One, 2-Two, 3-Three, 4-Four, 5-Five, 6-Six, 7-Seven, 8-Eight, 9-Nine, 10-Ten, 11-Eleven, 12-Twelve, 13-Thirteen, 14-Fourteen, 15-Fifteen, 16-Sixteen, 17-Seventeen, 18-Eighteen, 19-Nineteen, 20-Twenty.
+TIP: Decenas y Grandes Cifras: 30-Thirty, 40-Forty (sin 'u'), 50-Fifty, 100-One hundred, 1,000-One thousand, 1,000,000-One million.
+TIP: Para teléfonos, el 0 se dice Oh /ou/. Para la edad, NUNCA uses "I have". Di: "I am [edad]".
 CONTEXTO: Giving info: My number is 5-oh-1...
 CONTEXTO: Party: I am twenty-five years old.
 CONTEXTO: Market: That is eighty dollars.
