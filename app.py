@@ -64,8 +64,19 @@ def text_to_speech(text):
 
 # --- 4. LOGIN ---
 if "authenticated" not in st.session_state: st.session_state["authenticated"] = False
+
 if not st.session_state["authenticated"]:
-    display_logo()
+    # Ajustamos la ruta para que busque el logo en tu nueva carpeta Nivel_A1
+    path_login = os.path.join(CLASES_DIR, "Nivel_A1", "logo.png")
+    
+    if os.path.exists(path_login):
+        _, col, _ = st.columns([1, 1, 1])
+        with col: 
+            st.image(path_login, width=220)
+    else:
+        # Si no encuentra el logo en Nivel_A1, ponemos un título de respaldo
+        st.markdown("<h1 style='text-align:center;'>🇬🇧 English Classes</h1>", unsafe_allow_html=True)
+    
     st.markdown("<h2 style='text-align:center;'>🔐 Private Access</h2>", unsafe_allow_html=True)
     _, col_login, _ = st.columns([1, 2, 1])
     with col_login:
@@ -76,7 +87,8 @@ if not st.session_state["authenticated"]:
                 if u in USERS and USERS[u] == p:
                     st.session_state["authenticated"] = True
                     st.rerun()
-                else: st.error("❌ Invalid credentials")
+                else: 
+                    st.error("❌ Invalid credentials")
     st.stop()
 
 # --- 5. PROCESAMIENTO DE CONTENIDO ---
